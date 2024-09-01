@@ -30,14 +30,13 @@ jupyter notebook
 Open each notebook (e.g., gru_notebook.ipynb, lstm_notebook.ipynb) in your browser and run the cells sequentially.
 
 ## Experiment Summaries
-- **Experiment 01: Individual Proteins**
-        * Objective: Train models using individual proteins as input.
-        * Challenges: Limited sample size led to convergence issues, and the absence of data scaling and rounding affected model performance.
+### Experiment 01: Individual Proteins
+- Objective: Train models using individual proteins as input.
+- Challenges: Limited sample size led to convergence issues, and the absence of data scaling and rounding affected model performance.
 
-- **Experiment 02: Individual Proteins with Data Scaling and Rounding**
-  
-        - **Objective:** Improve model performance by incorporating data scaling and rounding.
-        - **Outcome:** Scaling and rounding improved model convergence and interpretability of results.
+### Experiment 02: Individual Proteins with Data Scaling and Rounding
+- Objective: Improve model performance by incorporating data scaling and rounding.
+- Outcome: Scaling and rounding improved model convergence and interpretability of results.
 
 - **Experiment 03: Whole Genome**
   
