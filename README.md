@@ -31,18 +31,22 @@ Open each notebook (e.g., gru_notebook.ipynb, lstm_notebook.ipynb) in your brows
 
 ## Experiment Summaries
 - **Experiment 01: Individual Proteins**
+
         - Objective: Train models using individual proteins as input.
         - Challenges: Limited sample size led to convergence issues, and the absence of data scaling and rounding affected model performance.
 
 - **Experiment 02: Individual Proteins with Data Scaling and Rounding**
+  
         - **Objective:** Improve model performance by incorporating data scaling and rounding.
         - **Outcome:** Scaling and rounding improved model convergence and interpretability of results.
 
 - **Experiment 03: Whole Genome**
+  
         - **Objective:** Extend the analysis to the entire genome, incorporating data from 27 proteins: NSP1, NSP2, NSP3, NSP4, NSP5, NSP6, NSP7, NSP8, NSP9, NSP10, NSP11, NSP12, NSP13, NSP14, NSP15, NSP16, Spike, NS3, E, M, NS6, NS7a, NS7b, NS8, N, NS9b, and NS9c.
         - **Outcome:** The comprehensive dataset of 8,756 samples provided a more robust understanding of mutation rates and patterns across the full genome.
 
 - **Experiment 04: Specific Proteins**
+  
         - **Objective:** Focus on specific proteins (NSP1, NSP3, NSP5, NSP8, NSP9, NSP13, NSP15) to assess the impact of a targeted dataset on model performance.
         - **Outcome:** Despite a smaller dataset, the targeted approach yielded improvements in model accuracy and robustness.
 
