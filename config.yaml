@@ -1,0 +1,136 @@
+ROOT:
+  DATA_FOLDER: data
+  DATA_DIR: raw data
+  FINAL_DIR: STEP3_FILTERED
+  REF_GENOME_DIR: ref_genome
+
+nsp1_config:
+  FILE_FOLDER: data
+  FILE_PATH: "NSP1_training_seqs.txt"
+  REF_GEN_PATH: "ref_genome_NSP1.txt"
+  LENGTH: 540
+  PATH: "NSP1_ger_all_nuc_seqs.csv"
+
+nsp2_config:
+  LENGTH: 1914
+  PATH: "NSP2_ger_all_nuc_seqs.csv"
+
+nsp3_config:
+  FILE_FOLDER: data
+  FILE_PATH: "NSP3_training_seqs.txt"
+  REF_GEN_PATH: "ref_genome_NSP3.txt"
+  LENGTH: 5835
+  PATH: "NSP3_ger_all_nuc_seqs.csv"
+
+nsp4_config:
+  LENGTH: 1500
+  PATH: "NSP4_ger_all_nuc_seqs.csv"
+
+nsp5_config:
+  FILE_FOLDER: data
+  FILE_PATH: "NSP5_training_seqs.txt"
+  REF_GEN_PATH: "ref_genome_NSP5.txt"
+  LENGTH: 918
+  PATH: "NSP5_ger_all_nuc_seqs.csv"
+
+nsp6_config:
+  LENGTH: 870
+  PATH: "NSP6_ger_all_nuc_seqs.csv"
+
+nsp7_config:
+  LENGTH: 249
+  PATH: "NSP7_ger_all_nuc_seqs.csv"
+
+nsp8_config:
+  FILE_FOLDER: data
+  FILE_PATH: "NSP8_training_seqs.txt"
+  REF_GEN_PATH: "ref_genome_NSP8.txt"
+  LENGTH: 594
+  PATH: "NSP8_ger_all_nuc_seqs.csv"
+
+nsp9_config:
+  LENGTH: 339
+  PATH: "NSP9_ger_all_nuc_seqs.csv"
+
+nsp10_config:
+  LENGTH: 417
+  PATH: "NSP10_ger_all_nuc_seqs.csv"
+
+nsp11_config:
+  LENGTH: 39
+  PATH: "NSP11_ger_all_nuc_seqs.csv"
+
+nsp12_config:
+  LENGTH: 2795
+  PATH: "NSP12_ger_all_nuc_seqs.csv"
+
+nsp13_config:
+  FILE_FOLDER: data
+  FILE_PATH: "NSP13_training_seqs.txt"
+  REF_GEN_PATH: "ref_genome_NSP13.txt"
+  LENGTH: 1803
+  PATH: "NSP13_ger_all_nuc_seqs.csv"
+
+nsp14_config:
+  LENGTH: 1581
+  PATH: "NSP14_ger_all_nuc_seqs.csv"
+
+nsp15_config:
+  FILE_FOLDER: data
+  FILE_PATH: "NSP15_training_seqs.txt"
+  REF_GEN_PATH: "ref_genome_NSP15.txt" 
+  LENGTH: 1038
+  PATH: "NSP15_ger_all_nuc_seqs.csv"
+
+nsp16_config:
+  LENGTH: 894
+  PATH: "NSP16_ger_all_nuc_seqs.csv"
+
+spike_config:
+  LENGTH: 3822
+  PATH: "Spike_ger_all_nuc_seqs.csv"
+
+ns3_config:
+  LENGTH: 828
+  PATH: "NS3_ger_all_nuc_seqs.csv"
+
+e_config:
+  LENGTH: 228
+  PATH: "E_ger_all_nuc_seqs.csv"
+
+m_config:
+  LENGTH: 669
+  PATH: "M_ger_all_nuc_seqs.csv"
+
+ns6_config:
+  LENGTH: 186
+  PATH: "NS6_ger_all_nuc_seqs.csv"
+
+ns7a_config:
+  LENGTH: 366
+  PATH: "NS7a_ger_all_nuc_seqs.csv"
+
+ns7b_config:
+  LENGTH: 132
+  PATH: "NS7b_ger_all_nuc_seqs.csv"
+
+ns8_config:
+  LENGTH: 366
+  PATH: "NS8_ger_all_nuc_seqs.csv"
+
+n_config:
+  LENGTH: 1260
+  PATH: "N_ger_all_nuc_seqs.csv"
+
+ns9b_config:
+  LENGTH: 294
+  PATH: "NS9b_ger_all_nuc_seqs.csv"
+
+ns9c_config:
+  LENGTH: 222
+  PATH: "NS9c_ger_all_nuc_seqs.csv"
+
+whole_genome_config:
+  LENGTH: 29699
+  FILE_PATH: "final_data.csv"
+  REF_GENOME_PATH: "ref_genome.txt"
