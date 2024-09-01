@@ -10,7 +10,7 @@ cd Time-series-forecasting-of-SARS-COV2-mutation-rate
 ```
 2. Set Up the Environment: Ensure you have a Python environment set up with the necessary dependencies. You can create a virtual environment and install the dependencies as follows:
 ```bash
-conda create -n venv python==3.10 -y
+conda create -n venv python=3.10 -y
 conda activate venv
 pip install -r requirements.txt
 ```
