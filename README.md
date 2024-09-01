@@ -51,13 +51,13 @@ Open each notebook (e.g., gru_notebook.ipynb, lstm_notebook.ipynb) in your brows
 The repository (Experiment 03 & 04) is organized into several folders, each containing files relevant to specific preprocessing steps, mutation rate calculations, and the execution of machine learning models.
 
 ### 1. Data Preprocessing Step 1 & 2
-      - **Purpose:** This file contains scripts that perform the initial preprocessing steps on the raw data, including sequence length consistency checks, error detection, and correction.
-      - **Files:**
-          - **preprocessing_step1&2.ipynb:** Handles sequence length checks and filtering, Detects and corrects sequencing errors.
+- **Purpose:** This file contains scripts that perform the initial preprocessing steps on the raw data, including sequence length consistency checks, error detection, and correction.
+- **Files:**
+  - **preprocessing_step1&2.ipynb:** Handles sequence length checks and filtering, Detects and corrects sequencing errors.
 ### 2. Data Preprocessing Step 3
-      - **Purpose:** This file contains the final preprocessing steps, focusing on scaling and rounding of mutation rates, which are crucial for improving model training effectiveness.
-      - **Files:**
-          - **preprocessing_step3.ipynb:** This file merges the individual proteins based on their common labels essential for mutation rate calculation.
+- **Purpose:** This file contains the final preprocessing steps, focusing on scaling and rounding of mutation rates, which are crucial for improving model training effectiveness.
+- **Files:**
+  - **preprocessing_step3.ipynb:** This file merges the individual proteins based on their common labels essential for mutation rate calculation.
 ### 3. MRC Whole Genome Calculation/Specific Protein Calculation
       - **Purpose:** Contains the implementation of the Mutation Rate Calculation (MRC) algorithm for the whole genome and for specific proteins, producing the mutation rate matrix used as input for model training.
       - **Files:**
