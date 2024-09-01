@@ -32,8 +32,8 @@ Open each notebook (e.g., gru_notebook.ipynb, lstm_notebook.ipynb) in your brows
 ## Experiment Summaries
 - **Experiment 01: Individual Proteins**
 
-        - Objective: Train models using individual proteins as input.
-        - Challenges: Limited sample size led to convergence issues, and the absence of data scaling and rounding affected model performance.
+        * Objective: Train models using individual proteins as input.
+        * Challenges: Limited sample size led to convergence issues, and the absence of data scaling and rounding affected model performance.
 
 - **Experiment 02: Individual Proteins with Data Scaling and Rounding**
   
