@@ -1,6 +1,14 @@
 # Time Series Forecasting of SARS-CoV-2 Mutation Rates
 This repository contains the code, data, and documentation related to a series of experiments aimed at predicting the mutation rates of the COVID-19 virus. The experiments leverage Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) neural networks, with a focus on different preprocessing techniques and protein-specific datasets.
 
+## Introduction
+
+This study explores COVID-19 mutation dynamics through LSTM and GRU models. Key focus areas include:
+
+- Different preprocessing techniques
+- Protein-specific datasets
+- Model training and performance evaluation
+
 ## Running the Jupyter Notebooks
 To run the Jupyter notebooks, follow these steps:
 1. Clone the Repository
