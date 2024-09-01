@@ -11,39 +11,40 @@ This study explores COVID-19 mutation dynamics through LSTM and GRU models. Key 
 
 ## Running the Jupyter Notebooks
 To run the Jupyter notebooks, follow these steps:
-1. Clone the Repository
+1. **Clone the Repository**
 ```bash
 git clone https://github.com/Diksha1312/Time-series-forecasting-of-SARS-COV2-mutation-rates.git
 cd Time-series-forecasting-of-SARS-COV2-mutation-rate
 ```
-2. Set Up the Environment: Ensure you have a Python environment set up with the necessary dependencies. You can create a virtual environment and install the dependencies as follows:
+2. **Set Up the Environment**
+Ensure you have a Python environment set up with the necessary dependencies. You can create a virtual environment and install the dependencies as follows:
 ```bash
 conda create -n venv python=3.10 -y
 conda activate venv
 pip install -r requirements.txt
 ```
-3. Run Notebooks
+3. **Run Notebooks**
 ```bash
 jupyter notebook
 ```
 Open each notebook (e.g., gru_notebook.ipynb, lstm_notebook.ipynb) in your browser and run the cells sequentially.
 
 ## Experiment Summaries
-* ### Experiment 01: Individual Proteins
-Objective: Train models using individual proteins as input.
-Challenges: Limited sample size led to convergence issues, and the absence of data scaling and rounding affected model performance.
+- **Experiment 01: Individual Proteins**
+1. Objective: Train models using individual proteins as input.
+2. Challenges: Limited sample size led to convergence issues, and the absence of data scaling and rounding affected model performance.
 
-* ### Experiment 02: Individual Proteins with Data Scaling and Rounding
-Objective: Improve model performance by incorporating data scaling and rounding.
-Outcome: Scaling and rounding improved model convergence and interpretability of results.
+- **Experiment 02: Individual Proteins with Data Scaling and Rounding**
+1. Objective: Improve model performance by incorporating data scaling and rounding.
+2. Outcome: Scaling and rounding improved model convergence and interpretability of results.
 
-* ### Experiment 03: Whole Genome
-Objective: Extend the analysis to the entire genome, incorporating data from 27 proteins: NSP1, NSP2, NSP3, NSP4, NSP5, NSP6, NSP7, NSP8, NSP9, NSP10, NSP11, NSP12, NSP13, NSP14, NSP15, NSP16, Spike, NS3, E, M, NS6, NS7a, NS7b, NS8, N, NS9b, and NS9c.
-Outcome: The comprehensive dataset of 8,756 samples provided a more robust understanding of mutation rates and patterns across the full genome.
+- **Experiment 03: Whole Genome**
+1. Objective: Extend the analysis to the entire genome, incorporating data from 27 proteins: NSP1, NSP2, NSP3, NSP4, NSP5, NSP6, NSP7, NSP8, NSP9, NSP10, NSP11, NSP12, NSP13, NSP14, NSP15, NSP16, Spike, NS3, E, M, NS6, NS7a, NS7b, NS8, N, NS9b, and NS9c.
+2. Outcome: The comprehensive dataset of 8,756 samples provided a more robust understanding of mutation rates and patterns across the full genome.
 
-* ### Experiment 04: Specific Proteins
-Objective: Focus on specific proteins (NSP1, NSP3, NSP5, NSP8, NSP9, NSP13, NSP15) to assess the impact of a targeted dataset on model performance.
-Outcome: Despite a smaller dataset, the targeted approach yielded improvements in model accuracy and robustness.
+- **Experiment 04: Specific Proteins**
+1. Objective: Focus on specific proteins (NSP1, NSP3, NSP5, NSP8, NSP9, NSP13, NSP15) to assess the impact of a targeted dataset on model performance.
+2. Outcome: Despite a smaller dataset, the targeted approach yielded improvements in model accuracy and robustness.
 
 ## Repository Structure
 
