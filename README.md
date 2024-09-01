@@ -11,19 +11,19 @@ This study explores COVID-19 mutation dynamics through LSTM and GRU models. Key 
 
 ## Running the Jupyter Notebooks
 To run the Jupyter notebooks, follow these steps:
-1. **Clone the Repository**
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Diksha1312/Time-series-forecasting-of-SARS-COV2-mutation-rates.git
 cd Time-series-forecasting-of-SARS-COV2-mutation-rate
 ```
-2. **Set Up the Environment**
+### 2. Set Up the Environment
 Ensure you have a Python environment set up with the necessary dependencies. You can create a virtual environment and install the dependencies as follows:
 ```bash
 conda create -n venv python=3.10 -y
 conda activate venv
 pip install -r requirements.txt
 ```
-3. **Run Notebooks**
+### 3. Run Notebooks
 ```bash
 jupyter notebook
 ```
